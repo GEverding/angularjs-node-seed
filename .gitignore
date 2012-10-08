@@ -1,3 +1,14 @@
 .redo
 node_modules
 
+lib/*.js
+lib/angular/*.js
+lib/angular/**/*.js
+lib/models/*.js
+lib/views/*.jade
+
+
+
+client/app.js
+client/vendor.js
+
