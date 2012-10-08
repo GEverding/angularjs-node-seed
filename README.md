@@ -1,15 +1,30 @@
-### Seed Project for AngularJs
-# Includes
+# Seed Project for AngularJS - Work In Progress
+
+## Includes
 - [AngularJs](http://angularjs.org)
-  - Angularjs-bootstrap
-  - Angularjs-resource
-  - Angularjs-cookies
 - [Jam](http://jamjs.org)
-- [Bootstrap](http://twitter.github.com/bootstrap)i
+- [Bootstrap](http://twitter.github.com/bootstrap)
 - [Redo](http://github.com/apenwarr/redo)
 
-# Get
+## Get Code
 
-# Build
+```
+$ git clone git@github.com:GEverding/angularjs-node-jam-seed.git 
+```
+## Install Dependencies
 
-# Run
+```
+$ npm install -g redo jamjs coffee-script
+$ npm install
+```
+## Build
+
+```
+$ redo -j8
+```
+
+## Run
+
+```
+$ node app.js
+```
