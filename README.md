@@ -14,7 +14,7 @@ $ git clone git@github.com:GEverding/angularjs-node-jam-seed.git
 ## Install Dependencies
 
 ```
-$ npm install -g redo jamjs coffee-script
+$ npm install -g jamjs coffee-script
 $ npm install
 ```
 ## Build
