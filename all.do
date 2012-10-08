@@ -1,1 +1,1 @@
-redo-ifchange lib/all app.js
+redo-ifchange lib/all client/all app.js
