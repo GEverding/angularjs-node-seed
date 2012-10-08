@@ -2044,21 +2044,21 @@ var jam = {
     "packages": [
         {
             "name": "underscore",
-            "location": "jam/underscore",
+            "location": "vendor/underscore",
             "main": "underscore.js"
         },
         {
             "name": "bootstrap",
-            "location": "jam/bootstrap"
+            "location": "vendor/bootstrap"
         },
         {
             "name": "jquery",
-            "location": "jam/jquery",
+            "location": "vendor/jquery",
             "main": "jquery.js"
         },
         {
             "name": "angularjs",
-            "location": "jam/angularjs",
+            "location": "vendor/angularjs",
             "main": "angular.js"
         }
     ],
