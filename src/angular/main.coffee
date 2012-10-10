@@ -7,10 +7,10 @@ define(
   'main'
   , [
     'app'
-    , 'controllers/basicCtrl'
-    , 'directives/basicDirective'
-    , 'services/basicService'
-    , 'filters/basicFilter'
+    , 'controllers/controller'
+    , 'directives/directive'
+    , 'services/service'
+    , 'filters/filter'
   ]
   , (app) ->
     app.init()

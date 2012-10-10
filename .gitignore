@@ -1,5 +1,6 @@
 .redo
 node_modules
+npm_debug.log
 
 lib/*.js
 lib/angular/*.js
