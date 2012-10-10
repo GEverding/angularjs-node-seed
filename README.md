@@ -6,25 +6,46 @@
 - [Bootstrap](http://twitter.github.com/bootstrap)
 - [Redo](http://github.com/apenwarr/redo)
 
+## Project Structure
+* **lib/** *compiled coffee script files*
+* **src/** *client/server code*
+* **client/** *compiled dependencies/source files*
+* **test/** *test sources*
+
+  
+
 ## Get Code
 
 ```
-$ git clone git@github.com:GEverding/angularjs-node-jam-seed.git 
+$ git clone git@github.com:GEverding/angularjs-node-jam-seed.git Project
 ```
 ## Install Dependencies
 
+### Node.js Dependencies
 ```
-$ npm install -g redo jamjs coffee-script
+$ npm install -g jamjs coffee-script
+```
+```
+$ cd Project
 $ npm install
 ```
+### Redo
+```
+$ git clone git://github.com/apenwarr/redo.git
+$ cd redo
+$ sudo make install
+```
+
 ## Build
 
 ```
 $ redo -j8
 ```
+*From Project Directory*
 
 ## Run
 
 ```
 $ node app.js
 ```
+*From Project Directory*
