@@ -2,9 +2,11 @@
 
 ## Includes
 - [AngularJs](http://angularjs.org)
-- [Jam](http://jamjs.org)
 - [Bootstrap](http://twitter.github.com/bootstrap)
 - [Redo](http://github.com/apenwarr/redo)
+- [UglifyJS](http://github.com/mishoo/UglifyJS)
+- [Underscore.js](http://undersorejs.org)
+- [jQuery v1.8.2](http://jquery.com)
 
 ## Project Structure
 * **lib/** *compiled coffee script files*
@@ -27,6 +29,7 @@ $ npm install -g jamjs coffee-script
 ```
 ```
 $ cd Project
+$ npm install -g uglify-js coffee-script
 $ npm install
 ```
 ### Redo
