@@ -1,1 +1,1 @@
-
+redo-ifchange partials/all

@@ -1,1 +1,1 @@
-redo-ifchange app.js vendor.js
+redo-ifchange app.js

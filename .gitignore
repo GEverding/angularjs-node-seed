@@ -5,11 +5,11 @@ npm_debug.log
 lib/*.js
 lib/angular/*.js
 lib/angular/**/*.js
+lib/angular/partials/*.js
 lib/models/*.js
+lib/routes/*.js
 lib/views/*.jade
 
 
-
 client/app.js
-client/vendor.js
-
+client/app.min.js

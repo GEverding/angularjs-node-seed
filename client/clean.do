@@ -1,1 +1,1 @@
-rm -f app.js vendor.js
+rm -f app.js

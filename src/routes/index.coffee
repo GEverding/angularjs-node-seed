@@ -3,12 +3,12 @@
 # GET home page.
 
 controllers = [
-  'movie'
+  'app'
 ]
 
 homeController = (app) ->
   app.get '/', (req, res) ->
-    res.render 'index', {title: 'MovieDB'}
+    res.render 'index', {title: 'MyApp'}
 
 
 exports.init = (app) ->
@@ -18,5 +18,4 @@ exports.init = (app) ->
   for controller in controllers
     c = require "./#{ controller }"
     c app
-    console.log c
 

@@ -1,1 +1,1 @@
-find . -name '*.js' -type -f | xargs rm -f
+redo-ifchange partials/clean
