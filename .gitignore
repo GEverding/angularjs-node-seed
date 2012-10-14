@@ -5,7 +5,7 @@ npm_debug.log
 lib/*.js
 lib/angular/*.js
 lib/angular/**/*.js
-lib/angular/partials/*.js
+lib/angular/partials/*.gen.js
 lib/models/*.js
 lib/routes/*.js
 lib/views/*.jade
