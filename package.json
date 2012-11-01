@@ -6,21 +6,11 @@
     "start": "node app"
   },
   "dependencies": {
-    "express": "3.0.0rc3",
+    "express": "3.0.0",
     "jade": "*",
     "stylus": "*",
     "underscore": "*",
     "mongoose": "3.2.x",
     "connect-mongo": "0.2.0"
-  },
-  "jam": {
-    "packageDir": "client/vendor",
-    "baseUrl": "client",
-    "dependencies": {
-      "jquery": null,
-      "underscore": null,
-      "angularjs": null,
-      "bootstrap": null
-    }
   }
 }
