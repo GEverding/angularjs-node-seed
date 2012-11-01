@@ -9,16 +9,15 @@ MongoStore = require('connect-mongo')(express)
 app = express()
 
 settings =
-  db: 'movie_test'
-  monkdb: 'localhost/move_test'
+  db: 'test'
+  monkdb: 'localhost/test'
   port: 5000
 
 mongoose.connect "mongodb://localhost/#{settings.db}",
   auto_reconnect: true
 
-console.log __dirname
 app.configure ->
-  app.set('port', process.env.PORT || 5000)
+  app.set('port', process.env.PORT || 5040)
   app.set 'views', __dirname + '/src/views'
   app.set 'view engine', 'jade'
   app.set express.favicon()
