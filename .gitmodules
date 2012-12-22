@@ -1,0 +1,6 @@
+[submodule "thirdparty/lesshat"]
+	path = thirdparty/lesshat
+	url = git://github.com/CSSHat/LESSHat.git
+[submodule "thirdparty/bootstrap"]
+	path = thirdparty/bootstrap
+	url = git://github.com/twitter/bootstrap.git
