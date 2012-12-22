@@ -17,8 +17,8 @@ mongoose.connect "mongodb://localhost/#{settings.db}",
   auto_reconnect: true
 
 app.configure ->
-  app.set('port', process.env.PORT || 5040)
-  app.set 'views', __dirname + '/src/views'
+  app.set('port', process.env.PORT || 5000)
+  app.set 'views', __dirname + '/views'
   app.set 'view engine', 'jade'
   app.set express.favicon()
   app.use express.logger 'dev'
@@ -34,7 +34,7 @@ app.configure ->
     )
   )
   app.use app.router
-  app.use require('stylus').middleware(__dirname+ '/public')
+  app.use require('less-middleware')({ src: __dirname+ '/public'})
   app.use express.static path.join __dirname, 'public'
 
 app.configure 'development', ->

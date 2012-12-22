@@ -1,12 +1,14 @@
-# Seed Project for AngularJS - Work In Progress
+# Seed Project for AngularJS
 
-## Includes
+## Build With
 - [AngularJs](http://angularjs.org)
 - [Bootstrap](http://twitter.github.com/bootstrap)
 - [Redo](http://github.com/apenwarr/redo)
 - [UglifyJS](http://github.com/mishoo/UglifyJS)
 - [Underscore.js](http://undersorejs.org)
 - [jQuery v1.8.2](http://jquery.com)
+- [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
+- [Testacular](http://vojtajina.github.com/testacular/)
 
 ## Project Structure
 * **lib/** *compiled coffee script files*
@@ -14,18 +16,18 @@
 * **client/** *compiled dependencies/source files*
 * **test/** *test sources*
 
-  
+
 
 ## Get Code
 
 ```
-$ git clone git@github.com:GEverding/angularjs-node-jam-seed.git Project
+$ git clone git@github.com:GEverding/angularjs-node-seed.git Project
 ```
 ## Install Dependencies
 
 ### Node.js Dependencies
 ```
-$ npm install -g jamjs coffee-script
+$ npm install -g coffee-script testacular
 ```
 ```
 $ cd Project
@@ -42,13 +44,13 @@ $ sudo make install
 ## Build
 
 ```
-$ redo -j8
+$ make
 ```
 *From Project Directory*
 
 ## Run
 
 ```
-$ node app.js
+$ make webserver
 ```
 *From Project Directory*

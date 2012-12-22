@@ -1,2 +1,2 @@
-redo-ifchange lib/clean client/clean
+redo lib/clean client/clean test/clean
 rm -f app.js tags

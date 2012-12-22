@@ -10,6 +10,7 @@ lib/models/*.js
 lib/routes/*.js
 lib/views/*.jade
 
+test_out/
 
 client/app.js
 client/app.min.js

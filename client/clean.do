@@ -1,1 +1,1 @@
-rm -f app.js
+redo css/clean js/clean views/clean

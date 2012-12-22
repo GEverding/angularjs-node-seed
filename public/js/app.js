@@ -1,1 +1,1 @@
-../../client/app.js
+../../client/js/app.js

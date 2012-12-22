@@ -1,1 +1,1 @@
-redo-ifchange app.js
+redo-ifchange js/all css/all views/all

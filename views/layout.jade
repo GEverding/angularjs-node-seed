@@ -1,0 +1,14 @@
+doctype 5
+html(ng-app="app")
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='/css/bootstrap.css')
+    link(rel='stylesheet', href='/css/font-awesome.css')
+    link(rel='stylesheet', href='/css/app.css')
+
+    script(type='text/javascript', src='//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js')
+    script(type='text/javascript', src='/js/app.js')
+
+  body(ng-controller="IndexCtrl")
+    block content
