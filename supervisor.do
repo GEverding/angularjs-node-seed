@@ -1,2 +1,2 @@
-echo &>2
-supervisor -w app.js,client/app.js,src/views/index.jade app.js
+exec >&2
+supervisor -w app.js,lib/,lib/models,lib/routes app.js
